@@ -3440,6 +3440,75 @@ input, select, textarea {
 					color: #ffffff !important;
 				}
 
+
+			#main input[type="submit"].blue,
+			#main input[type="reset"].blue,
+			#main input[type="button"].blue,
+			#main button.blue,
+			#main .button.blue {
+				background-color: #8cc9f0;
+				color: #000000 !important;
+				box-shadow: none;
+			}
+
+				#main input[type="submit"].blue:hover,
+				#main input[type="reset"].blue:hover,
+				#main input[type="button"].blue:hover,
+				#main button.blue:hover,
+				#main .button.blue:hover {
+					background-color: #9acff2;
+				}
+
+				#main input[type="submit"].blue:active,
+				#main input[type="reset"].blue:active,
+				#main input[type="button"].blue:active,
+				#main button.blue:active,
+				#main .button.blue:active {
+					background-color: #7ec3ee;
+				}
+
+				#main input[type="submit"].blue.icon:before,
+				#main input[type="reset"].blue.icon:before,
+				#main input[type="button"].blue.icon:before,
+				#main button.blue.icon:before,
+				#main .button.blue.icon:before {
+					color: #ffffff !important;
+				}
+
+				#main input[type="submit"].pink,
+				#main input[type="reset"].pink,
+				#main input[type="button"].pink,
+				#main button.pink,
+				#main .button.pink {
+					background-color: #EFA8B0;
+					color: #000000 !important;
+					box-shadow: none;
+				}
+	
+					#main input[type="submit"].pink:hover,
+					#main input[type="reset"].pink:hover,
+					#main input[type="button"].pink:hover,
+					#main button.pink:hover,
+					#main .button.pink:hover {
+						background-color: #EFA8B0;
+					}
+	
+					#main input[type="submit"].pink:active,
+					#main input[type="reset"].pink:active,
+					#main input[type="button"].pink:active,
+					#main button.pink:active,
+					#main .button.pink:active {
+						background-color:#EFA8B0;
+					}
+	
+					#main input[type="submit"].pink.icon:before,
+					#main input[type="reset"].pink.icon:before,
+					#main input[type="button"].pink.icon:before,
+					#main button.pink.icon:before,
+					#main .button.pink.icon:before {
+						color: #ffffff !important;
+					}
+
 		#main label {
 			color: #636363;
 		}
